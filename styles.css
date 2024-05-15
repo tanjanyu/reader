@@ -65,3 +65,11 @@ button {
     flex: 1 1 auto;
     width: 75px;
 }
+
+/* class for <p> tags */
+.content-paragraphs {
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 19px;  
+}
