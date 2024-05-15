@@ -59,6 +59,7 @@ button {
     height: 30px;
     width: auto;
     padding-left: 15px;
+    padding-right: 15px;
 }
 
 .spacer {
@@ -66,10 +67,28 @@ button {
     width: 75px;
 }
 
-/* class for <p> tags */
+/* Class for <p> tags */
 .content-paragraphs {
     font-family: inherit;
     font-weight: inherit;
     font-style: inherit;
-    font-size: 19px;  
+    font-size: 19px;
+    white-space: pre-wrap;
+}
+
+/* Class for dark-mode for textarea */
+.dark-textarea {
+    background-color: black;
+    color: white;
+}
+
+/* Class for dark-mode for content divs */
+.dark-content {
+    color: white;
+}
+
+.content {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
